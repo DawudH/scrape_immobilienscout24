@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<h1>{{ n_new_apartments }} new apartments:</h1>
+{{ results | safe }}
+<h1>Apartments from the last 7 days ({{ n_results_last_7_days }} apartments):</h1>
+{{ results_last_7_days | safe }}
+{% endblock %}
