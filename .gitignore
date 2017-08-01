@@ -104,3 +104,6 @@ ENV/
 .idea/
 
 *.DS_store
+
+# Project
+/mailer/settings.py
